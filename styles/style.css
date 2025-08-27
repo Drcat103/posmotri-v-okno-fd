@@ -55,7 +55,7 @@ html {
 .content__list {
   gap: 30px;
   width: 400px;
- 
+
 }
 
 .search-form {
@@ -63,7 +63,7 @@ html {
   justify-content: space-between;
   height: 100%;
   margin-top: 20px;
-  
+
 }
 
 .search-form__label {
@@ -150,7 +150,7 @@ html {
 }
 
 .content__card-link:focus-visible {
-    outline: 1px solid #ffffff;
+  outline: 1px solid #ffffff;
 }
 
 
@@ -163,9 +163,9 @@ html {
   font-size: 30px;
   line-height: 100%;
   letter-spacing: 0%;
-  white-space: nowrap; /* запрет переноса текста */
-  overflow: hidden; /* скрывает текст за границами контейнера */
-  text-overflow: ellipsis; /* добавляет многоточие */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   margin-top: 5px;
 }
 
@@ -174,7 +174,7 @@ html {
   width: 390px;
   flex-direction: row;
   align-items: flex-start;
-  
+
 }
 
 ul li:not(:last-child) {
@@ -189,7 +189,7 @@ ul li:not(:last-child) {
   height: 103px;
   width: 194px;
   object-position: center;
-  
+
 }
 
 .content__video-card-description {
@@ -244,7 +244,7 @@ ul li:not(:last-child) {
 
 .search-form__submit-button {
   align-self: flex-end;
-  
+
 }
 
 .more-button {
@@ -252,7 +252,7 @@ ul li:not(:last-child) {
   min-height: 34px;
   margin-top: 30px;
   margin-left: 2px;
-  
+
 }
 
 .button:hover {
@@ -262,7 +262,7 @@ ul li:not(:last-child) {
 
 .button:active {
   color: #fff;
-  background-color: #707070;
+  background-color: #545050;
 }
 
 .button:focus {
@@ -281,12 +281,12 @@ ul li:not(:last-child) {
   line-height: 100%;
   letter-spacing: 0%;
   margin-bottom: 5px;
- 
+
 }
 
 .search-form__textfield {
   width: 225px;
-  
+
 }
 
 h1,
@@ -310,11 +310,11 @@ ol {
 
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
-  
+
 }
 
 .custom-scrollbar {
- width: 404px;
+  width: 404px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
@@ -366,12 +366,8 @@ ol {
   opacity: 1;
 }
 
-.search-form__label:hover .search-form__text {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
-}
-
-.search-form__label-text:hover {
-   text-decoration: underline; 
 }
 
 .search-form__input:hover {}
